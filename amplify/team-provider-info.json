@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-googlesigninwithampl-dev-121633-authRole",
+      "UnauthRoleArn": "arn:aws:iam::008616589077:role/amplify-googlesigninwithampl-dev-121633-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::008616589077:role/amplify-googlesigninwithampl-dev-121633-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-googlesigninwithampl-dev-121633-deployment",
+      "UnauthRoleName": "amplify-googlesigninwithampl-dev-121633-unauthRole",
+      "StackName": "amplify-googlesigninwithampl-dev-121633",
+      "StackId": "arn:aws:cloudformation:us-east-1:008616589077:stack/amplify-googlesigninwithampl-dev-121633/5451cd30-2283-11ec-b702-0ea63f948251",
+      "AmplifyAppId": "d3mce7b2nfj524"
+    },
+    "categories": {
+      "auth": {
+        "googlesigninwithampl4352ee964352ee96": {}
+      }
+    }
+  }
+}
