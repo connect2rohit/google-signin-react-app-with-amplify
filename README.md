@@ -1,3 +1,55 @@
+# To start implement google sign with amplify in a react app you need three things
+
+Before starting with Aws Amplify, We need to set up 3 things.
+Set up an AWS account.
+Install the latest version of Node.js.
+Install the latest version of NPM.
+
+Once after setup these three basic requirement, you are good to go.
+
+Open Command line and type the following command
+
+npm install -g @aws-amplify/cli
+
+
+1. First you need to add aws amplify npm package to your project
+use command
+ $  yarn add aws-amplify
+
+2. Then run this command 
+# $ amplify init
+(The amplify init command is a one-time initialization step for your Amplify powered cloud app. You run this once for each project (JavaScript, iOS, or Android) to connect your app with an AWS backend.) to your project.
+
+3. Use Command 
+# $ amplify  add auth
+to add authentication feature to your application. It will ask you couple of questions. You can see in the screen shot.
+It will ask you couple of questions, answer as per you requirement.
+
+
+4. To sync local backend resources with cloud execute 
+# $ amplify push
+command in your terminal.
+
+# Setup your project in google dveloper console, here are the steps
+Go to Google Developer Console
+Create a new project.
+Now, create Credentials.
+Save these Client id and Secret key , we need them to connect with AWS user pool
+Configure consent screen.
+Now, choose Credentials.
+Select the client you created in the first step and click the edit button.
+Type your user pool domain into Authorized Javascript origins.
+Type your user pool domain with the /oauth2/idpresponse endpoint into Authorized Redirect URIs.
+https://docs.amplify.aws/lib/auth/social/q/platform/js/#setup-your-auth-provider
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

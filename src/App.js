@@ -28,13 +28,13 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const [userData, setuserData] = useState(null);
+  const [userData, setUserData] = useState(null);
 
   const getAuthenticatedUserData = async () => {
     await Auth.currentAuthenticatedUser()
       .then((user) => {
         if(user.attributes) {
-          setuserData(user.attributes);
+          setUserData(user.attributes);
         }
       })
       .catch(() => {});
